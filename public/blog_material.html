@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DisignStudio blog</title>
+  <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css">
+</head>
+  <body>
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/materialize/dist/js/materialize.js"></script>
+    <script src="../bower_components/three.js/build/three.js"></script>
+    <script src="../bower_components/three.js/examples/js/controls/OrbitControls.js"></script>
+    <script src="../js/CourseUtil/libs/Coordinates.js"></script>
+
+
+    <h1>DisignStudio blog</h1>
+    <div class="row">
+      <div class="col s7" id="container">
+      </div>
+      <div class="col s4">
+        <button onclick="saveAsImage()" type="button">Get Image</button>
+        <img id="image" height="450" width="600">
+      </div>
+
+    </div>
+
+    <script src="../js/blog/meshMaterial.js"></script>
+    <script src="../js/blog/utils.js"></script>
+
+    <!--<script type="text/javascript">-->
+      <!--if ( ! Detector.webgl ) {-->
+        <!--Detector.addGetWebGLMessage();-->
+      <!--}-->
+    <!--</script>-->
+  </body>
+</html>

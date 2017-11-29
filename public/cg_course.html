@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CG Course</title>
+  <style>
+    /*body { margin: 0; }*/
+    /*canvas { width: 100%; height: 100% }*/
+  </style>
+  <link rel="stylesheet" href="../bower_components/materialize/dist/css/materialize.min.css">
+
+</head>
+
+<body>
+
+<h1>CG Course</h1>
+
+<script src="../bower_components/jquery/dist/jquery.js"></script>
+<script src="../bower_components/materialize/dist/js/materialize.js"></script>
+<script src="../bower_components/three.js/build/three.js"></script>
+<script src="../bower_components/three.js/examples/js/controls/OrbitControls.js"></script>
+<script src="../js/cs_course.js"></script>
+<script src="../js/CourseUtil/libs/Coordinates.js"></script>
+
+
+<div class="row">
+  <div class="col s8" id="container">
+  </div>
+</div>
+
+<script src="../bower_components/three.js/examples/js/renderers/CanvasRenderer.js"></script>
+<script src="../bower_components/three.js/examples/js/libs/dat.gui.min.js"></script>
+<script src="../bower_components/three.js/examples/js/Detector.js"></script>
+<script type="text/javascript">
+    if ( ! Detector.webgl ) {
+    Detector.addGetWebGLMessage();
+    }
+</script>
+
+
+<script src="../bower_components/three.js/examples/js/controls/TrackballControls.js"></script>
+<script src="../bower_components/three.js/examples/js/libs/stats.min.js"></script>
+
+<script src="../js/CourseUtil/libs/uclass_shaders.js"></script>
+<!--<script src="../js/CourseUtil/a/OrbitAndPanControls.js"></script>-->
+<script src="../js/CourseUtil/libs/tween.min.js"></script>
+<script src="../js/CourseUtil/libs/uclass_BeveledBlockGeometry.js"></script>
+<script src="../js/CourseUtil/libs/uclass_TeacupGeometry.js"></script>
+<script src="../js/CourseUtil/libs/uclass_TeapotGeometry.js"></script>
+<script src="../js/CourseUtil/libs/uclass_TeaspoonGeometry.js"></script>
+<script src="../js/CourseUtil/Grading.js"></script>
+<script src="../js/CourseUtil/utils.js"></script>
+<script src="../js/Lesson2_PointsVectorsAndMeshes/theDrinkingBird.js"></script>
+<script src="../js/Lesson2_PointsVectorsAndMeshes/createSquare.js"></script>
+<script src="../js/Lesson2_PointsVectorsAndMeshes/buildAStairway.js"></script>
+<script src="../js/Lesson2_PointsVectorsAndMeshes/PolygonCreator.js"></script>
+<script src="../js/Lesson2_PointsVectorsAndMeshes/PolygonLocation.js"></script>
+<script src="../js/Lesson3_ColorAndMaterials/VertexAttributes.js"></script>
+<script src="../js/Lesson3_ColorAndMaterials/DiffuseMaterial.js"></script>
+<script src="../js/Lesson3_ColorAndMaterials/MaterialDemo.js"></script>
+<script src="../js/Lesson3_ColorAndMaterials/ShinyBird.js"></script>
+<script src="../js/Lesson3_ColorAndMaterials/DemoLambert.js"></script>
+<script src="../js/Lesson4_Transforms/Demo_EulerAngles.js"></script>
+<script src="../js/Lesson4_Transforms/BuildASnowman.js"></script>
+<script src="../js/Lesson4_Transforms/TwoClockHands.js"></script>
+<script src="../js/Lesson4_Transforms/Demo_RobotArm.js"></script>
+<script src="../js/Lesson4_Transforms/ExtendedRobotArm.js"></script>
+<script src="../js/Lesson4_Transforms/RobotHand.js"></script>
+<script src="../js/Lesson4_Transforms/MakeAFlower.js"></script>
+<script type="text/javascript">
+  createScene();
+</script>
+
+
+</body>
+</html>
+
+
